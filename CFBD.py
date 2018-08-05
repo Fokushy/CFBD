@@ -2,7 +2,7 @@ import os
 import sys
 
 try :
-    path = "/etc/fstabb"
+    path = "/etc/fstab"
 
     home = os.getenv("SUDO_USER")
     if home == "root":
